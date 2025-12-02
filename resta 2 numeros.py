@@ -10,11 +10,11 @@ def capturar_n2():
     return numero2
 
 def sumar_ns (numero1, numero2):
-    suma = (numero1 - numero2)
-    return suma
+    resta = (numero1 - numero2)
+    return resta
 
-def hacer_mensaje(suma):
-    mensaje = "la resta de los numeros es: " + str(suma)
+def hacer_mensaje(resta):
+    mensaje = "la resta de los numeros es: " + str(resta)
     return mensaje
 
 def imprimir_mensaje(mensaje):
@@ -24,6 +24,7 @@ def imprimir_mensaje(mensaje):
 #****codigo principal*****    
 n1 = capturar_n1()
 n2 = capturar_n2()
-suma = sumar_ns(n1, n2)
-mensaje = hacer_mensaje(suma)
+resta = sumar_ns(n1, n2)
+mensaje = hacer_mensaje(resta)
+
 imprimir = imprimir_mensaje(mensaje)
