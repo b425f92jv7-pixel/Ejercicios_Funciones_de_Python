@@ -1,5 +1,5 @@
 #******cuadrado de un numero******
-
+#*****zona funcional********
 def capturar_n():
     numero= int(input("ingrese el numero: "))
     return numero
@@ -22,4 +22,5 @@ n= capturar_n()
 
 mult = sumar_ns(n)
 mensaje = hacer_mensaje(mult)
+
 imprimir = imprimir_mensaje(mensaje)
