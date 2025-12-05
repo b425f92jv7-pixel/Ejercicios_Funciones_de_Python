@@ -9,7 +9,7 @@ def capturar_n2():
     numero2= int(input("ingrese el segundo numero: "))
     return numero2
 
-def sumar_ns (numero1, numero2):
+def mult_ns (numero1, numero2):
     mult = (numero1 * numero2)
     return mult
 
@@ -24,6 +24,7 @@ def imprimir_mensaje(mensaje):
 #****codigo principal*****    
 n1 = capturar_n1()
 n2 = capturar_n2()
-mult = sumar_ns(n1, n2)
+mult = mult_ns(n1, n2)
 mensaje = hacer_mensaje(mult)
+
 imprimir = imprimir_mensaje(mensaje)
