@@ -1,3 +1,5 @@
+#******div de 2 numeros******
+#*****zona funcional********
 def capturar_n1():
     numero1= int(input("ingrese el primer numero: "))
     return numero1
@@ -23,4 +25,5 @@ n1 = capturar_n1()
 n2 = capturar_n2()
 div = div_ns(n1, n2)
 mensaje = hacer_mensaje(div)
+
 imprimir = imprimir_mensaje(mensaje)
