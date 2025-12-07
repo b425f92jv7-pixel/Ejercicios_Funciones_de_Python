@@ -1,4 +1,3 @@
-# Escribe un programa que pida dos números enteros y muestre el cociente de la división entera.
 #*****division entera*****
 #*****zona funcional*****
 
@@ -26,4 +25,5 @@ numero1 = capturar_numero1()
 numero2 = capturar_numero2()
 division_entera = hacer_division(numero1, numero2)    
 mensaje = hacer_mensaje(division_entera)
+
 imprimir = imprimir_mensaje(mensaje)    
