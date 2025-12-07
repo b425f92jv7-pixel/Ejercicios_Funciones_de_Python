@@ -1,4 +1,3 @@
-# Desarrolla un programa que pida dos números y muestre el mayor de los dos utilizando operadores aritméticos. 
 #*****numero mayor*****
 #*****zona funcional*****
 
@@ -30,4 +29,5 @@ numero1 = capturar_numero1()
 numero2 = capturar_numero2()
 mayor = hacer_mayor(numero1, numero2)
 mensaje = hacer_mensaje(mayor)
+
 imprimir_mensaje(mensaje)
